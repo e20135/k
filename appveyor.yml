@@ -1,17 +1,1 @@
 
-# Notes:
-#   - Minimal appveyor.yml file is an empty file. All sections are optional.
-#   - Indent each level of configuration with 2 spaces. Do not use tabs!
-#   - All section names are case-sensitive.
-#   - Section names should be unique on
-  # Webhook
-  - provider: Webhook
-    url: http://www.myhook2.com
-    headers:
-      User-Agent: myapp 1.0
-      Authorization:
-        secure: GhD+5xhLz/tkYY6AO3fcfQ==
-    on_build_success: false
-    on_build_failure: true
-    on_build_status_changed: true
-    build: off
